@@ -5,6 +5,7 @@ if(empty($_SESSION['user'])){
     header("LOCATION: login.php");
 }
 
+$userrole =  userRole();
 $data = Alldata();
 
 
